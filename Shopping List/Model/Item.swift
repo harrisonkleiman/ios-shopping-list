@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Item Data
 class Item: Encodable, Decodable {
     
     var name: String

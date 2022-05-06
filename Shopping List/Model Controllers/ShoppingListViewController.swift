@@ -36,7 +36,7 @@ class ShoppingListViewController: UIViewController, UITableViewDelegate, UITable
         return items.count // counts items in the item list
     }
     
-    // MARK: - Creates cell for UI table view
+    // MARK: - Creates cell for UI TV
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
         let currentItem = items[indexPath.row]
